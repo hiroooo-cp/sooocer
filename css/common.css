@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+#point {
+	margin: 0 0 10px;
+}
+
+#point section {
+	margin:  0 0 0 10px;
+	overflow: hidden;
+}
+#point figure {
+	float: right;
+	margin:  0 0 0 15px;
+}
+
+#point figcaption {
+	margin: 10px 0 0;
+	color: #0BA29A;
+	text-align: center;
+}
+/*　テーブルここから　*/
+table {
+	width: 960px;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+table caption {
+	overflow: hidden;
+	text-align: center;
+}
+table caption p {
+	margin-bottom: 30px;
+}
+table th {
+	padding: 15px;
+	border: 1px solid #333333;
+}
+table td {
+	padding: 20px;
+	border: 1px solid #333333;
+	text-align: center
+}
+table tr th:first-child {
+	width: 30%;
+}
+table tr *:last-child {
+	width: 20%;
+}
+table tbody tr td:last-child {
+	text-align: center;
+}
+/*　　テーブルここまで　*/
+
+/*　ヘッダーここから　*/
+.heading-2 {
+    position: relative;
+    padding: .5em .7em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f3c477;
+    color: #fff;
+}
+
+.heading-2::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border: 11px solid transparent;
+    border-top: 11px solid #f3c477;
+}
+
+/*　ヘッダーここまで　*/
+
+/* 歴史　ボックス　*/
+.box-019 {
+    position: relative;
+    max-width: 640px;
+    background-color: #F5EFEF;
+    color: #333;
+}
+
+.box-019::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 20px 20px 0;
+    border-style: solid;
+    border-color: #d3a457 #fff;
+    box-shadow: -1px 1px 1px rgb(0 0 0 / 5%);
+    content: '';
+}
+　/*　歴史ボックスここまで　*/
